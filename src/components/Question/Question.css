@@ -1,0 +1,24 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.question {
+    font-size: larger;
+}
+
+.space {
+    margin-left: 5px;
+}
+
+.button {
+    color: black;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.button:disabled {
+    color: white;
+}

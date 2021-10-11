@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.answer {
+    background: white;
+    border-radius: 10px;
+    border: 4px solid skyblue;
+    margin: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.ok {
+    color: green;
+}
+
+.bad {
+    color: red;
+}
